@@ -1,0 +1,22 @@
+{
+    "searchIcon": {
+        "locatorType": "xpath",
+        "locator": "//a[text()='Search']"
+    },
+    "closeIcon": {
+        "locatorType": "css",
+        "locator": ".close-icon"
+    },
+    "searchButton": {
+        "locatorType": "css",
+        "locator": ".btn-global-search"
+    },
+    "searchField": {
+        "locatorType": "id",
+        "locator": "txtGlobalSearch"
+    },
+    "searchResult": {
+        "locatorType": "xpath",
+        "locator": "//div[@class='result-list-container' and //a[contains(text(), '{searchTerm}')]]"
+    }
+}

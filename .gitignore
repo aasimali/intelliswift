@@ -1,0 +1,4 @@
+node_modules
+htmlReport
+.vscode
+package-lock.json
